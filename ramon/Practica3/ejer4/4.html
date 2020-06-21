@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <title>Ejercicio 4</title>
+        <style type="text/css">
+            <!--
+            #Layer1{
+                position: absolute;
+                left: 35px;
+                top: 26px;
+                width: 390px;
+                height: 423px;
+                z-index: 1;
+                font-family: Geneva, Arial, Helvetica, sans-serif;
+                font-size: 36px;
+                background-color: #CCCCCC;
+                text-align: center;
+                padding: 50px;
+                line-height: 423px;
+            }
+            #Layer2{
+                position: absolute;
+                left: 587px;
+                top: 180px;
+                width: 465px;
+                height: 157px;
+                z-index: 2;
+                font-size: 12px;
+                background-color: #CCFFFF;
+                padding: 20px;
+                border: thin solid #333333;
+            }
+            .botones{
+                width: 100px;
+            }
+            -->
+        </style>
+    </head>
+    <body>
+        <div id="Layer1">Formulario de ejemplo</div>
+        <div id="Layer2">
+            <form action="4.php" method="get">
+                <table width="100%" border="0">
+                    <tr>
+                        <td width="14%">Nombre</td>
+                        <td width="40%"><input name="Nombre" type="text" id="nombre"></td>
+                        <td width="6%">Sexo</td>
+                        <td>
+                            <label><input name="Sexo" type="radio" value="Masculino">Masculino</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Apellidos</td>
+                        <td><input type="text" name="Apellidos"></td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <label><input name="Sexo" type="radio" value="Femenino">Femenino</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Edad</td>
+                        <td><input type="text" name="Edad"></td>
+                        <td colspan="2" rowspan="3">
+                            <label>
+                                <input name="Submit" type="submit" class="botones" value="Enviar">
+                                <input name="Submit2" type="reset" class="botones" value="Restablecer">
+                            </label>
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Poblacion</td>
+                        <td><input type="text" name="Poblacion"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">&nbsp;</td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
