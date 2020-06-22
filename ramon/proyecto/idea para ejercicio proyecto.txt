@@ -1,0 +1,5 @@
+Esta hecho pensando en que las mismas categorías se puedan usar tanto para el test como para las preguntas.
+La tabla del Test contiene: su Id, nombre del text, el número de preguntas, la descripción y el id de las categorías a las que pertenece
+La tabla Preguntas contiene: los Id de los demás campos (Text, Categorías y Respuestas) el suyo propio y la pregunta en cuestión
+La tabla del Categorías contiene: su Id y el nombre
+La tabla Respuestas contiene: su Id, las respuestas y la correcta
